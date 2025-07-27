@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="223.09219"
+     inkscape:cy="171.47339"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <rect
+       x="41.273306"
+       y="70.882417"
+       width="421.70552"
+       height="380.43221"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000051;fill-opacity:1;stroke-width:716.289;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1"
+       width="512"
+       height="512"
+       x="0"
+       y="0"
+       rx="75" />
+    <text
+       xml:space="preserve"
+       id="text1"
+       style="font-weight:bold;font-size:53.3333px;line-height:0.5;font-family:'SF Pro';-inkscape-font-specification:'SF Pro Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);fill:#534bae;fill-opacity:1;stroke-width:593.8;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:117.568px;line-height:0.9;font-family:'SF Pro';-inkscape-font-specification:'SF Pro Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#a7a2d6;fill-opacity:1;stroke:#0f1958;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       x="18.58963"
+       y="245.3833"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="18.58963"
+         y="245.3833"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#a7a2d6;fill-opacity:1;stroke:#0f1958;stroke-width:7;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill">Triviality </tspan><tspan
+         sodipodi:role="line"
+         x="18.58963"
+         y="351.52057"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#a7a2d6;fill-opacity:1;stroke:#0f1958;stroke-width:7;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill">Maker</tspan></text>
+  </g>
+</svg>
