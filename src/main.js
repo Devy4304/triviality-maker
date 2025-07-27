@@ -125,11 +125,19 @@ const questionInput = document.getElementById('question');
 const answerInput = document.getElementById('answer');
 
 questionInput.addEventListener('input', (e) => {
+    const ss = e.target.selectionStart;
+    const se = e.target.selectionEnd;
     e.target.value = e.target.value.toUpperCase();
+    e.target.selectionStart = ss;
+    e.target.selectionEnd = se;
 });
 
 answerInput.addEventListener('input', (e) => {
+    const ss = e.target.selectionStart;
+    const se = e.target.selectionEnd;
     e.target.value = e.target.value.toUpperCase();
+    e.target.selectionStart = ss;
+    e.target.selectionEnd = se;
 });
 
 // Popup functionality
