@@ -40,6 +40,7 @@ export default defineConfig({
         ],
         "start_url": "./",
         "display": "minimal-ui",
+        "display_override": ["fullscreen", "standalone", "minimal-ui"],
         "background_color": "#0a1029",
         "theme_color": "#0a1029",
         "description": "Create and manage Triviality game boards"
