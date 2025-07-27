@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules/
 dist/
-dev-dist/
 .DS_Store
 *.local
 
@@ -22,3 +21,4 @@ dev-dist/
 *.njsproj
 *.sln
 *.sw?
+/dev-dist/

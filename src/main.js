@@ -1,4 +1,4 @@
-import { registerSW } from 'virtual:pwa-register';
+import {registerSW} from 'virtual:pwa-register';
 
 const updateSW = registerSW({
     onNeedRefresh() {
@@ -61,7 +61,7 @@ for (let i = 0; i < 5; i++) {
     
     // Convert to uppercase while typing
     categoryInput.addEventListener('input', (e) => {
-        e.target.value = e.target.value.toUpperCase();
+        toUpperCase(e);
     });
     
     categoryInput.addEventListener('change', (e) => {
@@ -96,8 +96,7 @@ function updateGridValues(row) {
     const cells = document.querySelectorAll(`.cell-${row}-\\d`);
     cells.forEach(cell => {
         const questionSpan = cell.querySelector('.question-text');
-        const currentText = questionSpan.textContent;
-        cell.querySelector('.question-text').textContent = currentText;
+        cell.querySelector('.question-text').textContent = questionSpan.textContent;
     });
 }
 
@@ -120,24 +119,24 @@ popup.innerHTML = `
 `;
 document.body.appendChild(popup);
 
+function toUpperCase(e) {
+    const ss = e.target.selectionStart;
+    const se = e.target.selectionEnd;
+    e.target.value = e.target.value.toUpperCase();
+    e.target.selectionStart = ss;
+    e.target.selectionEnd = se;
+}
+
 // Add input event listeners to the popup inputs after creation
 const questionInput = document.getElementById('question');
 const answerInput = document.getElementById('answer');
 
 questionInput.addEventListener('input', (e) => {
-    const ss = e.target.selectionStart;
-    const se = e.target.selectionEnd;
-    e.target.value = e.target.value.toUpperCase();
-    e.target.selectionStart = ss;
-    e.target.selectionEnd = se;
+    toUpperCase(e);
 });
 
 answerInput.addEventListener('input', (e) => {
-    const ss = e.target.selectionStart;
-    const se = e.target.selectionEnd;
-    e.target.value = e.target.value.toUpperCase();
-    e.target.selectionStart = ss;
-    e.target.selectionEnd = se;
+    toUpperCase(e);
 });
 
 // Popup functionality
